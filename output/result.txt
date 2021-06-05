@@ -1,0 +1,134 @@
+
+New Result!
+Time Step 9: MAPE 15.424%; MAE  5.795; RMSE  9.799.
+New Result!
+Time Step 9: MAPE 10.376%; MAE  4.110; RMSE  7.647.
+New Result!
+Time Step 9: MAPE 10.216%; MAE  4.630; RMSE  7.982.
+New Result!
+Time Step 9: MAPE 10.832%; MAE  4.135; RMSE  7.610.
+New Result!
+Time Step 9: MAPE  8.874%; MAE  3.686; RMSE  6.953.
+New Result!
+Time Step 9: MAPE  8.786%; MAE  3.691; RMSE  6.933.
+New Result!
+Time Step 9: MAPE  9.085%; MAE  3.613; RMSE  6.821. Model Test Time 6.952s
+New Result!
+Time Step 9: MAPE  8.948%; MAE  3.639; RMSE  6.837. Model Test Time 6.741s
+New Result!
+Time Step 9: MAPE  8.755%; MAE  3.691; RMSE  6.963. Model Test Time 3.308s
+New Result!
+Time Step 9: MAPE  8.841%; MAE  3.577; RMSE  6.733. Model Test Time 3.331s
+New Result!
+Time Step 9: MAPE  8.777%; MAE  3.589; RMSE  6.776. Model Test Time 3.289s
+save all result of Improved Model!New Result!
+New Result!
+Time Step 9: MAPE  9.673%; MAE  4.237; RMSE  7.614. Model Test Time 5.019s
+
+
+only kerel modify
+New Result!
+Time Step 9: MAPE  8.936%; MAE  3.617; RMSE  6.780. Model Test Time 3.193s
+Training Time 522.988s
+Test Time 3.206s
+
+original result!!
+New Result!
+Time Step 9: MAPE  9.387%; MAE  3.590; RMSE  6.878. Model Test Time 3.106s
+New Result!
+Time Step 9: MAPE  9.483%; MAE  3.859; RMSE  7.206. Model Test Time 4.773s
+
+add two kernal!
+New Result!
+Time Step 9: MAPE  8.954%; MAE  3.726; RMSE  7.020. Model Test Time 115.186s
+New Result!
+Time Step 9: MAPE  8.950%; MAE  3.742; RMSE  7.015. Model Test Time 3.212s
+New Result!
+Time Step 3: MAPE  5.198%; MAE  2.225; RMSE  4.033. Model Test Time 1.638s
+New Result!
+Time Step 3: MAPE  5.195%; MAE  2.248; RMSE  4.079. Model Test Time 1.616s
+
+预测15分钟：原始结果
+New Result!
+Time Step 3: MAPE  5.182%; MAE  2.232; RMSE  4.065. Model Test Time 1.580s
+设计原始attention机制，预测15分钟，实验结果
+New Result!
+Time Step 3: MAPE  5.071%; MAE  2.199; RMSE  4.047. Model Test Time 1.859s
+
+预测45分钟：
+原始结果：
+New Result!
+Time Step 9: MAPE  8.854%; MAE  3.727; RMSE  7.000. Model Test Time 3.196s
+预测45分钟：
+实验结果：New Result!
+Time Step 9: MAPE  8.866%; MAE  3.632; RMSE  6.831. Model Test Time 3.818s
+
+以60分钟，预测30分钟：
+实验结果：
+New Result!
+Time Step 6: MAPE  7.405%; MAE  2.976; RMSE  5.672. Model Test Time 2.859s
+
+以60分钟，预测45分钟：
+实验结果：
+New Result!
+Time Step 6: MAPE  7.207%; MAE  3.001; RMSE  5.714. Model Test Time 587.828s
+New Result!
+Time Step 9: MAPE  8.941%; MAE  3.621; RMSE  6.846. Model Test Time 1491.904s
+
+SZ-taxi
+60->15
+New Result!
+Time Step 3: MAPE 33.502%; MAE  12.528; RMSE 14.482. Model Test Time 1.877s
+New Result!
+Time Step 3: MAPE -14.053%; MAE  4.628; RMSE  6.247. Model Test Time 1.940s
+New Result!
+Time Step 3: MAPE 258.147%; MAE  3.876; RMSE  5.427. Model Test Time 1.874s
+500轮：
+New Result!
+Time Step 3: MAPE 262.326%; MAE  3.793; RMSE  5.289. Model Test Time 2.047s
+
+STGCN：加0数据集：
+New Result!
+Time Step 3: MAPE 169873.238%; MAE  0.017; RMSE  0.020. Model Test Time 1.593s
+
+STGCN：修改数据集：
+3
+New Result!
+Time Step 3: MAPE 261.194%; MAE  3.835; RMSE  5.329. Model Test Time 1.586s
+6
+New Result!
+Time Step 6: MAPE 294.917%; MAE  4.451; RMSE  6.341. Model Test Time 2.407s
+9
+New Result!
+Time Step 9: MAPE 342.997%; MAE  4.980; RMSE  7.127. Model Test Time 3.258s
+
+
+SZ-taxi
+60->30
+New Result!
+Time Step 6: MAPE 299.668%; MAE  4.430; RMSE  6.319. Model Test Time 2.892s
+60->45
+New Result!
+Time Step 9: MAPE 313.918%; MAE  4.780; RMSE  6.934. Model Test Time 3.889s
+
+去掉AS-Attention：
+15min New Result!
+Time Step 3: MAPE  5.138%; MAE  2.199; RMSE  4.001. Model Test Time 1.617s
+去掉AS-Attention：
+30minNew Result!
+Time Step 6: MAPE  7.210%; MAE  3.006; RMSE  5.703. Model Test Time 2.458s
+去掉AS-Attention：
+45minNew Result!
+Time Step 9: MAPE  8.902%; MAE  3.581; RMSE  6.748. Model Test Time 3.244s
+
+
+去掉MS-Kernel：
+15min
+New Result!
+Time Step 3: MAPE  5.128%; MAE  2.219; RMSE  4.053. Model Test Time 1.869s
+去掉MS-Kernel：
+30minNew Result!
+Time Step 6: MAPE  7.376%; MAE  3.039; RMSE  5.754. Model Test Time 2.852s
+去掉MS-Kernel：
+45New Result!
+Time Step 9: MAPE  8.644%; MAE  3.613; RMSE  6.910. Model Test Time 3.813s
